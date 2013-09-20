@@ -5,6 +5,8 @@ Project("{BEB99A62-B3B5-284E-2A71-D36F130DE72F}") = "test2D", "Assembly-CSharp-f
 EndProject
 Project("{BEB99A62-B3B5-284E-2A71-D36F130DE72F}") = "test2D", "Assembly-UnityScript-firstpass.unityproj", "{C8A23F90-4DA3-4830-7757-1C45CAE58E11}"
 EndProject
+Project("{BEB99A62-B3B5-284E-2A71-D36F130DE72F}") = "test2D", "Assembly-UnityScript.unityproj", "{347F523E-437B-DD34-54A3-53F0E6919095}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{C8A23F90-4DA3-4830-7757-1C45CAE58E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8A23F90-4DA3-4830-7757-1C45CAE58E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8A23F90-4DA3-4830-7757-1C45CAE58E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347F523E-437B-DD34-54A3-53F0E6919095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347F523E-437B-DD34-54A3-53F0E6919095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347F523E-437B-DD34-54A3-53F0E6919095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347F523E-437B-DD34-54A3-53F0E6919095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+						GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -41,4 +47,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
