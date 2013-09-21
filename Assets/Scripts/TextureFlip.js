@@ -8,10 +8,10 @@ function Start () {
 
 function Update () {
 	if (Input.GetKey("a")){
-	print("a is pressed");
+		print("a is pressed");
 		transform.localScale.x = X;
 	} else if(Input.GetKey("d")){
-	print("d is pressed");
+		print("d is pressed");
 		transform.localScale.x = -X;
 	}
 }
