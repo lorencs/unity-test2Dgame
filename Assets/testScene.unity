@@ -231,7 +231,6 @@ GameObject:
   - 114: {fileID: 860590225}
   - 114: {fileID: 860590224}
   - 114: {fileID: 860590223}
-  - 114: {fileID: 860590228}
   m_Layer: 0
   m_Name: First Person Controller
   m_TagString: Untagged
@@ -348,18 +347,6 @@ Transform:
   m_Children:
   - {fileID: 970803623}
   m_Father: {fileID: 0}
---- !u!114 &860590228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 860590222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbce114e92c5f4452b96f6b71f9b2832, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  X: 0
 --- !u!1 &970803622
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,6 +357,8 @@ GameObject:
   - 4: {fileID: 970803623}
   - 33: {fileID: 970803625}
   - 23: {fileID: 970803624}
+  - 114: {fileID: 970803626}
+  - 114: {fileID: 970803627}
   m_Layer: 0
   m_Name: Graphics
   m_TagString: Untagged
@@ -415,6 +404,40 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 970803622}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &970803626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 970803622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438702bf5a2eb304d8a5c2370eb2662d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colCount: 4
+  rowCount: 2
+  rowNumber: 0
+  colNumber: 0
+  totalCells: 4
+  fps: 10
+  offset: {x: 0, y: 0}
+--- !u!114 &970803627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 970803622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd09275c36d1d04eb9d706e163d0847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moving: 0
+  direction: 0
+  jumping: 0
+  X: 0
+  AT: {fileID: 0}
 --- !u!1 &1882315205
 GameObject:
   m_ObjectHideFlags: 0
